@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Quiz Challenge - 100 Questions Game | Builded by Tanishq Saxena | Project given by InternPE team | as 6TH and 6th week project</title>    
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="quiz-header">
+            <h1>🎯 Ultimate Quiz Challenge</h1>
+            <p>100 Questions Across Multiple Categories</p>
+        </div>
+
+        <div id="quiz-content">
+            <div class="quiz-stats">
+                <div class="stat">
+                    <div class="stat-label">Score</div>
+                    <div class="stat-value" id="score">0</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-label">Question</div>
+                    <div class="stat-value" id="current-question">1/100</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-label">Correct</div>
+                    <div class="stat-value" id="correct-count">0</div>
+                </div>
+            </div>
+
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress" style="width: 0%"></div>
+            </div>
+
+            <div class="question-section" id="question-section">
+                <span class="category-badge" id="category-badge">General Knowledge</span>
+                <div class="question-text" id="question-text"></div>
+                <div class="options-container" id="options-container"></div>
+            </div>
+
+            <div class="feedback" id="feedback"></div>
+            <button class="next-btn" id="next-btn">Next Question →</button>
+        </div>
+    </div>
+</body>
+</html>
