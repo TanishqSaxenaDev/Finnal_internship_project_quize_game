@@ -2,6 +2,9 @@
 
 An interactive **100-question quiz application** built with **HTML, CSS, and Vanilla JavaScript**. Test your knowledge across five different categories with randomized questions, real-time scoring, progress tracking, instant feedback, and a responsive modern interface.
 
+## 🔗 Link
+[https://tanishqsaxenadev.github.io/Finnal_internship_project_quize_game/]
+
 ## ✨ Features
 
 * 🎮 **100 Questions** across 5 categories
